@@ -32,12 +32,12 @@ form h4{
     background-color: gray;
 }
 /* registration page */
-/* .name_container{
-    width: 50%;
- display: inline-block; 
- }*/
 
 .name{
     display: inline-block;
     width: 25%;
+}
+/* Calculator page */
+.output {
+    border: 2px black solid;
 }
