@@ -1,16 +1,18 @@
 body{
     background-color: floralwhite;
+    box-sizing: border-box;
 }
 
 /* Contact page */
 .form_body{
     width: 50%;
+    margin-left: 30px;
 }
 .input{
     width: 60%;
     padding: 10px;
     margin: 10px auto;
-    border: none;
+
 
 }
 form h4{
@@ -26,6 +28,12 @@ form h4{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.534);
+    border: none;
+    margin-left: 10px;
+}
+.select{
+    margin-left: 10px;
 }
 .btn:hover, .input:active{
     color: blue;
@@ -94,3 +102,4 @@ table{
 .container2{
     display: flex;
 }
+/* log in page */
