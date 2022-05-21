@@ -1,25 +1,52 @@
-body{
+body {
     background-color: floralwhite;
     box-sizing: border-box;
 }
+/* navigation styling */
+.nav-container{
+    width: 70%;
+    margin-left: 40%;
 
+}
+.nav-container li{
+    list-style: none;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+a:hover{
+    font-size: larger;
+    border-bottom: 0px;
+}
+.current{
+    background-color: black;
+    color: white;
+    padding: 5px;
+
+}
 /* Contact page */
-.form_body{
+.form_body {
     width: 50%;
     margin-left: 30px;
 }
-.input{
+
+.input {
     width: 60%;
     padding: 10px;
     margin: 10px auto;
-
-
 }
-form h4{
+
+form h4 {
     margin-top: 0;
     margin-bottom: 0;
 }
-.btn{
+
+.btn {
     font-size: 18px;
     background-color: blue;
     color: white;
@@ -32,30 +59,36 @@ form h4{
     border: none;
     margin-left: 10px;
 }
-.select{
+
+.select {
     margin-left: 10px;
 }
-.btn:hover, .input:active{
+
+.btn:hover,
+.input:active {
     color: blue;
     background-color: gray;
 }
+
 /* registration page */
 /* .name_container{
     width: 50%;
  display: inline-block; 
  }*/
 
-.name{
+.name {
     display: inline-block;
     width: 25%;
 }
+
 /* Calculator page */
-table{
-  border-collapse: seperate;
-  border-spacing: 10px 10px;
-  background-color: blanchedalmond;
-  text-align: right;
-} 
+table {
+    border-collapse: seperate;
+    border-spacing: 10px 10px;
+    background-color: blanchedalmond;
+    text-align: right;
+}
+
 .output {
     height: 50px;
     background-color: thistle;
@@ -63,43 +96,53 @@ table{
     padding: 5px;
     direction: rtl;
 }
-.calc_btn{
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  font-weight: bold;
-  box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75); ;
+
+.calc_btn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.75);
+    ;
 }
-.calc_btn:active{
-  background-color: white;
+
+.calc_btn:active {
+    background-color: white;
 }
-.number{
-  background-color: lightgrey;
+
+.number {
+    background-color: lightgrey;
 }
-.cancel{
-  background-color: firebrick;
+
+.cancel {
+    background-color: firebrick;
 }
-.operator{
-  background-color: lightyellow;
+
+.operator {
+    background-color: lightyellow;
 }
+
 /* calculator with flexbox */
-.container .output{
+.container .output {
     height: 50px;
     margin-bottom: 10px;
 
 }
-.container .calc_btn{
+
+.container .calc_btn {
     margin: 5px;
     border: 0;
 }
 
-.container{
+.container {
     background-color: blanchedalmond;
     padding: 10px;
     display: inline-flex;
     flex-direction: column;
 }
-.container2{
+
+.container2 {
     display: flex;
 }
+
 /* log in page */
