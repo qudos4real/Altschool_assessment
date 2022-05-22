@@ -1,6 +1,16 @@
 body {
     background-color: floralwhite;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/jared-murray-NSuufgf-BME-unsplash.jpg);
+    backdrop-filter: blur(4px);
+}
+.major-container{
+    padding: 0 10%;
+}
+h3, p{
+    color: white;
 }
 /* navigation styling */
 .nav-container{
@@ -10,7 +20,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 .nav-container li{
     float: right;
@@ -47,6 +56,7 @@ li a:hover{
     width: 60%;
     padding: 10px;
     margin: 10px auto;
+    border: none;
 }
 
 form h4 {
@@ -71,13 +81,18 @@ form h4 {
 .select {
     margin-left: 10px;
 }
-
+.input::placeholder{
+    color: black;
+    font-weight: lighter;
+}
 .btn:hover,
 .input:active {
     color: blue;
     background-color: gray;
 }
-
+.btn, .input{
+    min-width: 300px;
+}
 /* registration page */
 /* .name_container{
     width: 50%;
@@ -99,12 +114,14 @@ table {
 
 .output {
     height: 50px;
-    background-color: thistle;
+    background-color: white;
     font-size: 22px;
     padding: 5px;
     direction: rtl;
 }
-
+.output h3{
+    color: black;
+}
 .calc_btn {
     width: 50px;
     height: 50px;
